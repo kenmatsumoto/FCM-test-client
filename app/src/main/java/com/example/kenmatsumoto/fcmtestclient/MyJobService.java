@@ -1,11 +1,12 @@
 package com.example.kenmatsumoto.fcmtestclient;
 
-import com.firebase.jobdispatcher.JobParameters;
-import com.firebase.jobdispatcher.JobService;
 import android.util.Log;
 
+import com.firebase.jobdispatcher.JobParameters;
+import com.firebase.jobdispatcher.JobService;
+
 /**
- * Created by kenmatsumoto on 11/13/17.
+ * Created by kenmatsumoto on 11/16/17.
  */
 
 public class MyJobService extends JobService {
@@ -13,14 +14,13 @@ public class MyJobService extends JobService {
     private static final String TAG = "MyJobService";
 
     @Override
-    public boolean onStartJob(JobParameters jobParameters) {
-        Log.d(TAG, "Performing long running task in scheduled job");
-        // TODO(developer): add long running task here.
+    public boolean onStartJob(JobParameters job) {
+        Log.d(TAG, "performing long running task in scheduled job");
         return false;
     }
 
     @Override
-    public boolean onStopJob(JobParameters jobParameters) {
+    public boolean onStopJob(JobParameters job) {
         return false;
     }
 }
