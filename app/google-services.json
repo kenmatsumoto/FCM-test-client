@@ -93,6 +93,53 @@
           "status": 2
         }
       }
+<<<<<<< HEAD
+=======
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:991562075443:android:451c8511abcbcc87",
+        "android_client_info": {
+          "package_name": "com.example.kenmatsumoto.fcmtestclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "991562075443-gdv69sp21o0comjsls8g880qmsdhevkb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kenmatsumoto.fcmtestclient",
+            "certificate_hash": "0de994fe033553885e6a7fc2e7dd9b7f4543be8c"
+          }
+        },
+        {
+          "client_id": "991562075443-88vg5a9k4hud01egqg0pnrjpkfj61vt3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq9bnGIXZfehlIq9hnZ9XTabgQHjbIJ70"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "991562075443-88vg5a9k4hud01egqg0pnrjpkfj61vt3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+>>>>>>> fa9f2925608f7c8f459a9ce4f015a7755526fa6b
     }
   ],
   "configuration_version": "1"

@@ -1,3 +1,7 @@
 <resources>
+<<<<<<< HEAD
     <string name="app_name">fcmTestClient</string>
+=======
+    <string name="app_name">FCM test client</string>
+>>>>>>> fa9f2925608f7c8f459a9ce4f015a7755526fa6b
 </resources>
