@@ -3,7 +3,11 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
+<<<<<<< HEAD
+        applicationId "com.example.ken.fcmtestclient"
+=======
         applicationId "com.example.kenmatsumoto.fcmtestclient"
+>>>>>>> fa9f2925608f7c8f459a9ce4f015a7755526fa6b
         minSdkVersion 26
         targetSdkVersion 26
         versionCode 1

@@ -1,5 +1,9 @@
 <resources>
+<<<<<<< HEAD
+    <string name="app_name">fcmTestClient</string>
+=======
     <string name="app_name">FCM test client</string>
+<<<<<<< HEAD
     <string name="quickstart_message">Click the SUBSCRIBE TO NEWS button below to subscribe to the
         news topic. Messages sent to the news topic will be received. The LOG TOKEN button logs the
         InstanceID token to logcat.</string>
@@ -15,4 +19,7 @@
         It should describe the category of notifications that will be sent through this channel
      -->
     <string name="default_notification_channel_name" translatable="true">news</string>
+=======
+>>>>>>> fa9f2925608f7c8f459a9ce4f015a7755526fa6b
+>>>>>>> 4b632fa73549e8e6c2e45a3671d132e7184f04c8
 </resources>

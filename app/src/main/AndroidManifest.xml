@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
+    package="com.example.ken.fcmtestclient">
+=======
     package="com.example.kenmatsumoto.fcmtestclient" >
+>>>>>>> fa9f2925608f7c8f459a9ce4f015a7755526fa6b
 
     <application
         android:allowBackup="true"
@@ -8,6 +12,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+=======
         android:theme="@style/AppTheme" >
         <!-- [START fcm_default_channel] -->
         <meta-data
@@ -15,12 +23,17 @@
             android:value="@string/default_notification_channel_id"/>
         <!-- [END fcm_default_channel] -->
         <activity android:name=".MainActivity" >
+>>>>>>> fa9f2925608f7c8f459a9ce4f015a7755526fa6b
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4b632fa73549e8e6c2e45a3671d132e7184f04c8
         <service
             android:name=".MyFirebaseMessagingService">
             <intent-filter>
@@ -33,12 +46,20 @@
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
             </intent-filter>
         </service>
+<<<<<<< HEAD
         <service android:name=".MyJobService" android:exported="false">
             <intent-filter>
                 <action android:name="com.firebase.jobdispatcher.ACTION_EXECUTE"/>
             </intent-filter>
         </service>
 
+=======
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id"/>
+=======
+>>>>>>> fa9f2925608f7c8f459a9ce4f015a7755526fa6b
+>>>>>>> 4b632fa73549e8e6c2e45a3671d132e7184f04c8
     </application>
 
 </manifest>

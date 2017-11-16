@@ -8,11 +8,19 @@ buildscript {
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.0.0'
+<<<<<<< HEAD
+
+=======
         
+>>>>>>> fa9f2925608f7c8f459a9ce4f015a7755526fa6b
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
         classpath 'com.google.gms:google-services:3.1.0'
+<<<<<<< HEAD
+        compile 'com.google.firebase:firebase-messaging:11.0.4'
+=======
+>>>>>>> fa9f2925608f7c8f459a9ce4f015a7755526fa6b
     }
 }
 
